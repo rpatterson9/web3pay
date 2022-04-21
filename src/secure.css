@@ -1,0 +1,137 @@
+.inner-body-outer-wrapper{
+  padding-top: 105px;
+}
+.inner-body-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.inner-body-wrapper .left{
+  width: 280px;
+  overflow-y: auto;
+}
+.body-wrapper .right{
+  padding: 25px;
+  height: 700px;
+  overflow-y: auto;
+  flex-grow: 1;
+  margin-left: 20px;
+  background: #dadee3;
+  border-radius: 10px 0px 0px 0px;
+
+}
+.nav-sidebar{
+  width: 280px;
+  padding: 0px 20px 20px 20px;
+  bottom: 0;
+  border-radius: 0px 10px 0px 0px;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 1.25rem;
+  margin-bottom: 10px;
+  padding: 10px 0px 10px 35px;
+}
+.nav-pills .nav-link.active{
+  color: #000;
+  font-weight: 600;
+  background-color: #44C7F4;
+}
+.inner-body-wrapper .nav-sidebar .nav-link{
+  color: #000;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+.inner-body-wrapper .nav-sidebar .nav-link img{
+  padding-right: 8px;
+}
+.other-pages-wrapper {
+  /* background-color: #161616; */
+  padding: 120px 0px;
+}
+.support-wrapper .btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  border-radius: 22px;
+  padding: 5px 25px;
+}
+.support-wrapper img {
+  padding-bottom: 10px;
+  width: 40px;
+}
+.form-control.dark::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1;
+  /* Firefox */
+  font-size: 19px;
+}
+
+.form-control.dark:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+  font-size: 19px;
+}
+
+.form-control.dark::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #999;
+  font-size: 19px;
+}
+.other-pages-wrapper .contact-form-error-wrapper .invalid-feedback {
+  position: absolute;
+  display: block;
+  width: 100%;
+  font-size: .875em;
+  z-index: 1;
+  color: #dc3545;
+  left: 10px;
+  top: 31px;
+}
+.legal-content p,.legal-content h1,.legal-content h2,.legal-content h3,.legal-content h4,.legal-content h5,.legal-content span,.legal-content label{
+
+  font-family: 'Abel', sans-serif !important;
+}
+header + .container>div,
+header + .contact-form>div,
+header + .content-main-wrapper>div{
+  min-height: calc(100vh - 270px);
+}
+
+.buy-demo-btn {
+  margin: 40px 0px 0px 30px;
+  text-align: end;
+}
+
+.buy-demo-btn a {
+  background-color: #2D2B2B;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #2D2B2B;
+  border-radius: 30px;
+  font-size: 22px;
+  padding: 10px 65px;
+}
+.how-to-buy .payment-box{
+  background-color: #fff;
+}
+.nav-pills .nav-link {
+  background: #dadee3;
+}
+.info-bar h1{
+  font-weight: 700;
+  padding: 10px 25px;
+}
+.no-data-found{
+  height: 250px;
+  margin-top:300px ;
+}
+.cp{
+  cursor: pointer;
+}
+.form-top {
+  padding: 150px 0px;
+}
